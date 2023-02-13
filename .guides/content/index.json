@@ -1,0 +1,22 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Starting-MySQL-in-Codio-5eb6",
+		"Introduction-to-the-sales-Database-3fe7",
+		"About-this-Codio-Guide-8205",
+		"Introduction-to-MySQL-Stored-Procedures-3267",
+		"Exercises-3821"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "MySQL Stored Procedures Practice",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

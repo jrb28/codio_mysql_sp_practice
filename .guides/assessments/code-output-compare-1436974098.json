@@ -1,0 +1,69 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1436974098",
+	"source": {
+		"name": "Exercise 14",
+		"showName": true,
+		"instructions": "Write a stored procedure named <code>spGetOldItemCat</code> that accepts as an input argument an item <code>category</code> (e.g., <code>book</code> or <code>movie</code>) and outputs the items in that category that were published in the earliest year of all items in that category. Output the the items' <code>id</code>s, their <code>description</code>s, and their publication <code>year</code>s in <code>ASC</code>ending order of <code>id</code>.",
+		"command": "bash .guides/scripts/exec_mysql_sp.sh spGetOldItemCat",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 7,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "book",
+				"input": "",
+				"output": "id\tdescription\tyear\n4\tDream of the Red Chamber (紅樓夢)\t1791\n",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "movie",
+				"input": "",
+				"output": "id\tdescription\tyear\n44\tCinderella\t1988\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"https://{{domain3050}}/"
+			],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

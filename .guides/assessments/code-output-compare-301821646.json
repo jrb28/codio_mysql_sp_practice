@@ -1,0 +1,62 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-301821646",
+	"source": {
+		"name": "Exercise 16",
+		"showName": true,
+		"instructions": "If this were an online order fulfillment company, the might be interested in items that were frequently part of small orders (in terms of the number of items in the order) because these orders have a disproportionately high shipping cost per item.\n\nAccordingly, write a stored procedure, named <code>spGetItemsSmOrders</code>, that takes as an input an items <code>category</code> (e.g., <code>book</code> or <code>movie</code>) and outputs all items in that category that were ordered in orders with only that item in the order.  Output the item <code>id</code>, its <code>description</code>, its <code>price</code>, and how many small orders contained that item as the only item (use <code>num_orders</code> for this field name).  Output the data in <code>DESC</code>ending order of the number of items.",
+		"command": "bash .guides/scripts/",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 7,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"https://{{domain3050}}/"
+			],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

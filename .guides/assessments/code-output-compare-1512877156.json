@@ -1,0 +1,76 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1512877156",
+	"source": {
+		"name": "Exercise 13",
+		"showName": true,
+		"instructions": "Write a stored procedure named <code>spGetLessExpCat</code> that accepts as an input argument an item <code>id</code> and outputs all the items that are in the same item <code>category</code> and whose price is less than that of the reference item.  Output the the item <code>id</code>, the <code>description</code>, and the <code>price</code> of the items in <code>DESC</code>ending order of <code>price</code>.",
+		"command": "bash .guides/scripts/exec_mysql_sp.sh spGetLessExpCat",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 7,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "0",
+				"input": "",
+				"output": "id\tdescription\tprice\n26\tBlack Beauty\t27.75\n16\tThe Alchemist (O Alquimista)\t26.46\n1\tThe Little Prince (Le Petit Prince)\t24.83\n31\tCharlotte's Web\t24.16\n18\tThe Bridges of Madison County\t23.87\n32\tThe Ginger Man\t22.87\n2\tHarry Potter and the Philosopher's Stone\t21.2\n29\tWatership Down\t20.81\n17\tThe Catcher in the Rye\t20.55\n12\tHarry Potter and the Goblet of Fire\t20.25\n13\tHarry Potter and the Order of the Phoenix\t19.93\n10\tHarry Potter and the Chamber of Secrets\t19.35\n30\tThe Hite Report\t19.2\n25\tAnne of Green Gables\t18.69\n27\tThe Name of the Rose (Il Nome della Rosa)\t18.35\n14\tHarry Potter and the Half-Blood Prince\t18.3\n20\tYou Can Heal Your Life\\n\t16.35\n22\tLolita\t14.85\n19\tBen-Hur: A Tale of the Christ\\n\t13.92\n28\tThe Eagle Has Landed\t12.83\n11\tHarry Potter and the Prisoner of Azkaban\t12.7\n23\tHeidi\t11.85\n15\tHarry Potter and the Deathly Hallows\t11.67\n8\tVardi Wala Gunda\t10.19\n5\tThe Hobbit\t10.01\n6\tThe Lion, the Witch and the Wardrobe\t9.53\n24\tThe Common Sense Book of Baby and Child Care\t8.38\n21\tOne Hundred Years of Solitude (Cien años de soledad)\t7.89\n7\tShe: A History of Adventure\t6.38\n3\tAnd Then There Were None\t5.93\n",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "6",
+				"input": "",
+				"output": "id\tdescription\tprice\n24\tThe Common Sense Book of Baby and Child Care\t8.38\n21\tOne Hundred Years of Solitude (Cien años de soledad)\t7.89\n7\tShe: A History of Adventure\t6.38\n3\tAnd Then There Were None\t5.93\n",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "23",
+				"input": "",
+				"output": "id\tdescription\tprice\n15\tHarry Potter and the Deathly Hallows\t11.67\n8\tVardi Wala Gunda\t10.19\n5\tThe Hobbit\t10.01\n6\tThe Lion, the Witch and the Wardrobe\t9.53\n24\tThe Common Sense Book of Baby and Child Care\t8.38\n21\tOne Hundred Years of Solitude (Cien años de soledad)\t7.89\n7\tShe: A History of Adventure\t6.38\n3\tAnd Then There Were None\t5.93\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"https://{{domain3050}}/"
+			],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

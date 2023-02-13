@@ -1,0 +1,69 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1883061421",
+	"source": {
+		"name": "Exercise 15",
+		"showName": true,
+		"instructions": "Write a stored procedure named <code>spGetOrderWithItem</code> that returns the order <code>id</code>s and the order dates for orders that contain a particular Item <code>id</code> that is passed to MySQL as an <code>INT</code> input argument.  Output the results in <code>ASC</code>ending order of <code>date_placed</code>.",
+		"command": "bash .guides/scripts/exec_mysql_sp.sh spGetOrderWithItem",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 7,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "0",
+				"input": "",
+				"output": "order_id\tdate_placed\n34\t2023-01-25\n51\t2023-02-04\n87\t2023-03-02\n",
+				"showFeedback": false,
+				"feedback": ""
+			},
+			{
+				"arguments": "51",
+				"input": "",
+				"output": "order_id\tdate_placed\n0\t2023-01-04\n3\t2023-01-06\n59\t2023-02-09\n72\t2023-02-19\n76\t2023-02-21\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"https://{{domain3050}}/"
+			],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "file",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,7 @@
+{Check It!|assessment}(code-output-compare-1898435792)
+{Check It!|assessment}(code-output-compare-2554679070)
+{Check It!|assessment}(code-output-compare-1694558855)
+{Check It!|assessment}(code-output-compare-1008286212)
+{Check It!|assessment}(code-output-compare-4219789104)
+{Check It!|assessment}(code-output-compare-2627000601)
+{Check It!|assessment}(code-output-compare-13099240)
